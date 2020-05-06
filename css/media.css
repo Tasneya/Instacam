@@ -1,0 +1,491 @@
+/*================ Small Device ================*/
+@media (max-width:575.98px) {
+
+	.navbar-light .navbar-toggler {
+		border-color: transparent;
+		color: #3a85c9;
+	}
+
+	.navbar-light .navbar-toggler:focus {
+		outline: none;
+	}
+
+	.navbar-light .navbar-nav .nav-link {
+		text-align: center;
+	}
+
+	.navbar-expand-lg .navbar-nav .nav-link:after {
+		display: none;
+	}
+
+	.navbar {
+		 background:  #d9edfe;
+	}
+
+	.bnr-txt h5 {
+		font-size: 45px;
+		text-align: center;
+
+	}
+
+	.bnr-txt h1 {
+		font-size: 40px;
+		text-align: center;
+	}
+
+	.btn1 {
+		font-size: 15px;
+		width: 150px;
+		height: 50px;
+	}
+
+	#banner {
+		padding-top: 95px;
+		padding-bottom: 65px;
+	}
+
+	.cmra img {
+		bottom: -112px;
+		left: 130px;
+		`
+	}
+
+	.bleh {
+		max-width: 65%;
+	}
+
+	#features {
+		padding-top: 50px;
+	}
+
+	.features-text p {
+		font-size: 14px;
+		line-height: 24px;
+		padding-bottom: 10px;
+	}
+
+	.features-info p {
+		padding-bottom: 50px;
+	}
+
+	#about {
+		padding-top: 35px;
+		padding-bottom: 27px;
+	}
+
+	.about-pic img {
+		display: none;
+	}
+
+	.about-text h1 {
+		line-height: 30px;
+		text-align: center;
+		font-size: 24px;
+	}
+
+	.btn2 {
+		font-size: 16px;
+		width: 140px;
+		height: 45px;
+	}
+
+	.about-btn {
+		text-align: center;
+	}
+
+	.card button {
+		white-space: normal;
+	}
+
+	.f-img {
+		display: none;
+	}
+
+	#collapse {
+		display: none;
+	}
+
+	.video-text h1 {
+		font-size: 21px;
+		text-align: center;
+		padding-top: 0px;
+	}
+
+	.video-text p {
+		font-size: 13px;
+		text-align: center;
+	}
+
+	.watch p {
+		left: 100px;
+		top: -227px;
+		font-size: 20px;
+		color: #3a85c9;
+	}
+
+
+	.watch:after {
+		top: -96px;
+		left: 105px;
+		width: 48px;
+		height: 48px;
+	}
+
+	.round {
+		top: 138px;
+		left: 124px;
+		height: 40px;
+		width: 40px;
+		z-index: 999;
+	}
+
+	.round:after {
+		width: 53px;
+		height: 53px;
+		top: -6px;
+		left: -7px;
+	}
+
+	.round i {
+		padding-left: 14px;
+		padding-top: 11px;
+	}
+
+	.video-text a {
+		display: none;
+	}
+
+	.video-pic-2 {
+		background: url(../images/rsz_2v2.jpg);
+		height: 190px;
+	}
+
+	.video-pic img {
+		display: none;
+	}
+
+	.video-pic {
+		position: relative;
+		background: #f5f5f5;
+		height: 0px;
+	}
+
+	#testimonial {
+		padding-top: 40px;
+	}
+
+	#product {
+		padding-top: 40px;
+	}
+
+	.test-txt p {
+		padding-bottom: 10px;
+		font-size: 11px;
+	}
+
+	.slide i {
+		width: 40px;
+		height: 40px;
+		font-size: 18px;
+		padding-top: 10px;
+	}
+
+	.slide i {
+		top: -114px;
+		left: 70px;
+	}
+
+	.slide-right i {
+		width: 40px;
+		height: 40px;
+		font-size: 18px;
+		padding-top: 10px;
+	}
+
+
+	.slide-right i {
+		top: -114px;
+		left: 117px;
+	}
+
+	.test-pic {
+		left: 70px;
+	}
+
+	.test-pic img {
+		left: 8px;
+	}
+
+	#latest-news {
+		display: none;
+	}
+
+	.product-image {
+		display: none;
+	}
+
+	.footer-text i {
+		width: 35px;
+		height: 35px;
+		font-size: 15px;
+		padding-top: 10px;
+		top: 30px;
+		left: 12px;
+	}
+
+	.footer-text {
+		padding-top: 25px;
+	}
+
+	.footer-text p {
+		font-size: 13px;
+		line-height: 14px;
+	}
+
+	.f-icon i {
+		width: 40px;
+		height: 40px;
+		font-size: 15px;
+		padding-top: 11px;
+		margin-bottom: 15px;
+	}
+
+	.f-txt {
+		padding-top: 10px;
+		padding-bottom: 20px;
+	}
+
+	.light2 {
+		 background:  #d9edfe;
+	}
+
+	#collapse {
+		display: none;
+	}
+
+
+	#video {
+		display: none;
+	}
+
+	.cmra img {
+		display: none;
+	}
+
+}
+
+/*================ Small device ============*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+	.navbar-light .navbar-toggler {
+		border-color: transparent;
+		color: #3a85c9;
+	}
+
+	.navbar-light .navbar-toggler:focus {
+		outline: none;
+	}
+
+	.navbar-light .navbar-nav .nav-link {
+		text-align: center;
+	}
+
+	.navbar-expand-lg .navbar-nav .nav-link:after {
+		display: none;
+	}
+
+	.navbar {
+		 background:  #d9edfe;
+	}
+
+	.cmra {
+		display: none;
+	}
+
+	.f-img {
+		display: none;
+	}
+
+	.slide {
+		position: relative;
+		display: none;
+	}
+
+	.vdo-btn {
+		display: none;
+	}
+
+	#collapse {
+		display: none;
+	}
+
+	#video {
+		display: none;
+	}
+
+	.ice h6 {
+		padding-top: 10px;
+	}
+
+	#latest-news {
+		padding-top: 0px;
+		padding-bottom: 25px;
+	}
+
+	.about-pic {
+		display: none;
+	}
+
+	#product {
+		padding-top: 60px;
+	}
+
+	.test-pic {
+		top: -272px;
+		left: 51px;
+		z-index: 9999;
+	}
+}
+
+/*======================= Medium devices =================*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+	.navbar-light .navbar-toggler {
+		border-color: transparent;
+		color: #3a85c9;
+	}
+
+	.navbar-light .navbar-toggler:focus {
+		outline: none;
+	}
+
+	.navbar-light .navbar-nav .nav-link {
+		text-align: center;
+	}
+
+	.navbar-expand-lg .navbar-nav .nav-link:after {
+		display: none;
+	}
+
+	.navbar {
+		 background:  #d9edfe;
+	}
+
+	.cmra {
+		display: none;
+	}
+
+	.f-img {
+		display: none;
+	}
+
+	#video {
+		display: none;
+	}
+
+	.about-pic {
+		display: none;
+	}
+
+	#product {
+		padding-top: 50px;
+	}
+}
+
+/*========================= Large devices ======================*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.navbar-light .navbar-toggler {
+		border-color: transparent;
+		color: #3a85c9;
+	}
+
+	.navbar-light .navbar-toggler:focus {
+		outline: none;
+	}
+
+	.navbar-light .navbar-nav .nav-link {
+		text-align: center;
+	}
+
+	.navbar-expand-lg .navbar-nav .nav-link:after {
+		display: none;
+	}
+
+	.navbar {
+		 background:  #d9edfe;
+	}
+
+	.f-img {
+		display: none;
+	}
+
+	#video {
+		display: none;
+	}
+
+	.bnr-txt h1 {
+		font-size: 64px;
+	}
+
+	#product {
+		padding-top: 50px;
+	}
+
+	.test-pic {
+		left: 77px;
+	}
+
+	.footer-text i {
+		width: 45px;
+		height: 45px;
+		font-size: 20px;
+		padding-top: 12px;
+		top: 56px;
+		left: -13px;
+	}
+
+	.cmra img {
+		left: 400px;
+	}
+
+	.f-img img {
+		display: none;
+	}
+
+	.product-item {
+		width: 240px;
+	}
+
+	.crush {
+		padding-left: 15px;
+	}
+
+	.btn3 {
+		width: 260px;
+		height: 45px;
+	}
+
+	.button,
+	input {
+		width: 255px;
+		height: 40px;
+	}
+
+}
+
+/*========================= Large devices ======================*/
+@media (min-width: 1200px) {
+	.f-img {
+		display: none;
+	}
+
+	.navbar {
+        background:  #d9edfe;
+	}
+	
+	.video-pic img {
+	top: 373px;
+	left: 135px;
+}
+}

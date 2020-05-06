@@ -1,0 +1,965 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	
+}
+a {
+	text-decoration: none;
+}
+ul,ol {
+	list-style-type: none;
+}
+
+
+/*========== navbar start ========*/
+.navbar-light .navbar-nav .nav-link {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	color: #868c93;
+	transition: all linear .3s;
+	position: relative;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #3a85c9;
+}
+.navbar-expand-lg .navbar-nav .nav-link:after {
+	position: absolute;
+	content: '';
+	width: 0;
+	height: 0px;
+	background: #3a85c9;
+	top: -8px;
+	left: 0;
+	opacity: 0;
+	transition: all linear .3s;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover:after {
+	opacity: 1;
+	width: 100%;
+	height: 3px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.navbar{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+	transition: all linear .3s;
+	background:  #d9edfe;
+}
+.src i {
+	width: 40px;
+	height: 40px;
+	background: #3a85c9;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 50%;
+	text-align: center;
+	cursor: pointer;
+	transition: all .3s ease-in-out;
+	color: #fff;
+	font-size: 14px;
+	padding-top: 13px;
+}
+
+.light2 {
+    background:  #d9edfe;
+	animation: bg 1s;
+}
+@keyframes bg {
+	from{top: -100px}
+	to{top: 0}
+}
+/*========== navbar End ========*/
+
+
+/*========== Banner Start ========*/
+#banner {
+	background: #d9edfe;
+	padding-top: 143px;
+	padding-bottom: 90px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bnr-txt h5 {
+    font-family: 'Open Sans';
+	font-weight: 300;
+	font-size: 70px;
+	color: #3a85c9;
+	
+}
+.bnr-txt h1 {
+    font-family: 'Abril Fatface';
+	font-weight: 600;
+	font-size: 70px;
+	color:#3a85c9;
+	}
+
+.btn1 {
+	font-size: 20px;
+	font-family: 'Open Sans';
+	font-weight: 600;
+	width: 167px;
+	height: 50px;
+	color: #3a85c9;
+	background: #fff;
+	transition: all linear .3s;
+	display: inline-block;
+	margin-top: 45px;
+	border-radius: 40px;
+	box-shadow: 0 14px 18px 0 rgba(17, 17, 17, 0.24), 0 17px 50px 0 rgba(255, 255, 255, 0.21);
+}
+.btn1:hover {
+	background: #3a85c9;
+	color: #fff;
+}
+.cmra {
+	position: relative;
+}
+.cmra img{
+	position: absolute;
+	bottom: -240px;
+	left: 570px;
+}
+/*========== navbar End ========*/
+
+/*========== Fetures Start ========*/
+#features {
+	padding-top: 100px;
+}
+.features-hvr:hover {
+	box-shadow: 0 14px 18px 0 rgba(17, 17, 17, 0.24), 0 17px 50px 0 rgba(255, 255, 255, 0.21);
+	width: 6opx;
+	height: 200px;
+}
+
+.features-text h1 {
+	font-family: 'Abril Fatface';
+	font-weight: 400;
+	font-size: 30px;
+	color: #3a85c9;
+	line-height: 32px;
+	padding-bottom: 10px;
+}
+.features-text p {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	color: #444444;
+	line-height: 24px;
+}
+.features-info h4 {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 20px;
+	color: #222222;
+}
+.features-info p {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	color: #444444;
+	line-height: 24px;
+}
+.features-icon {
+	font-size: 45px;
+	color: #444;
+}
+.features-icon:hover {
+	color: #3a85c9;
+}
+
+/*========== Fetures End ========*/
+
+/*========== About Start ========*/
+#about {
+	padding-top: 100px;
+	padding-bottom: 27px;
+	background: #d9edfe;
+}
+.about-pic {
+	position: relative;
+}
+.about-pic img{
+	position: absolute;
+	top: -127px;
+	left: 30px;
+}
+.about-text h1{
+	font-family: 'Abril Fatface';
+	font-weight: 400;
+	font-size: 30px;
+	color: #3a85c9;
+	line-height: 32px;
+	padding-bottom: 10px;
+}
+.about-text p {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	color: #444444;
+	line-height: 24px;
+}
+.aftr p {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	color: #444444;
+	line-height: 22px;
+}
+.btn2 {
+	font-size: 20px;
+	font-family: 'Open Sans';
+	font-weight: 600;
+	width: 167px;
+	height: 50px;
+	color: #3a85c9;
+	transition: all linear .3s;
+	border-radius: 40px;
+	background: #fff;
+	box-shadow: 0 14px 18px 0 rgba(17, 17, 17, 0.24), 0 17px 50px 0 rgba(255, 255, 255, 0.21);
+	
+}
+.btn2:hover {
+	background: #3a85c9;
+	color: #fff;
+}
+/*========== About End ========*/
+
+/*========== Collapse Start ========*/
+#collapse {
+	padding-top: 100px;
+}
+.col-txt h1 {
+	font-family: 'Abril Fatface';
+	font-weight: 400;
+	font-size: 30px;
+	color: #3a85c9;
+	padding-bottom:  40px;
+}
+.accordion {
+	height: 650px;
+}
+.card-header .btn.btn-link.collapsed {
+	color: #999999;
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 17px;
+	color: #999999;
+	
+}
+.btn-link {
+	font-weight: 400;
+	color: #007bff;
+	background-color: transparent;
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 17px;
+}
+.card-header .btn:hover, .btn:focus {
+	text-decoration: none;
+}
+.card-header .btn i {
+	float: right;
+	transition: all linear .3s;
+}
+.card-body {
+	 font-family: 'Open Sans';
+	font-weight: 300;
+	font-size: 14px;
+	color: #444444;
+	line-height: 28px;
+}
+.card {
+	margin-bottom: 20px;
+}
+.card-header {
+	box-shadow: 0 14px 18px 0 rgba(17, 17, 17, 0.24), 0 17px 50px 0 rgba(255, 255, 255, 0.21);
+	
+} 
+.card-header .btn.btn-link i {
+	transform: rotate(-180deg);
+}
+.card-header .btn.btn-link.collapsed i {
+	transform: rotate(0);
+}
+
+.collaps-text {
+	background: #dcedff;
+}
+.collaps-text h1 {
+	font-family: 'Abril Fatface';
+	font-weight: 400;
+	font-size: 32px;
+	color: #3a85c9;
+	
+}
+.col {
+	padding-top: 30px;
+}
+.collaps-text p {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	color: #777777;
+	line-height: 24px;
+	padding-top: 6px;
+	padding-left: 8px;
+	padding-bottom: 20px;
+}
+.email p {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	color: #777777;
+	line-height: 24px;
+	padding-top: 25px;
+	padding-bottom: 40px;
+}
+.btn3 {
+	font-size: 20px;
+	font-family: 'Open Sans';
+	font-weight: 600;
+	width: 300px;
+	height: 48px;
+	color: #3a85c9;
+	transition: all linear .3s;
+	background: #fff;
+	box-shadow: 0 14px 18px 0 rgba(17, 17, 17, 0.24), 0 17px 50px 0 rgba(255, 255, 255, 0.21);
+	margin-top: 25px;
+	padding-top: 10px;
+	padding-bottom: 40px;	
+}
+.button, input {
+	width: 309px;
+	height: 40px;
+}
+/*========== Collapse End ========*/
+
+
+/*========== Back-top Start ========*/
+.back-top {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	z-index: 999;
+}
+	.back-top img:hover {
+	width: 35px;
+	height: 35px;
+	
+}
+/*========== Back-top End ========*/
+	
+/*========== Video Start ========*/
+#video {
+	background: #f5f5f5;
+}
+.video-text h1{
+	font-family: 'Abril Fatface';
+	font-weight: 400;
+	font-size: 32px;
+	color: #3a85c9;
+	line-height: 32px;
+	padding-top: 70px;
+}
+.video-text p {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	color: #444444;
+	line-height: 24px;
+	padding-top: 6px;
+}
+.video-pic {
+	position: relative;
+	background: #f5f5f5;
+	height: 500px;
+}
+.video-pic-2 {
+	height: 500px;
+	background: url(../images/v2.jpg);
+	position: relative
+}
+.video-pic-2:after {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 40%;
+	top: 0;
+	left: 0;
+}
+.video-pic img{
+	top: 290px;
+	left: 55px;
+	position: absolute;
+	
+}
+ 
+.round i {
+	font-size: 22px;
+	color: #3a85c9;
+	z-index: 999;
+	position: relative;
+	padding-left: 28px;
+	padding-top: 23px;
+}
+.round {                                                               
+	width: 65px;
+	height: 65px;
+	background: #fff;
+	border-radius: 100%;
+	opacity: 100;
+	position: relative;
+	top: 202px;
+	left: 740px;
+	z-index: 999;
+}
+.round:after {
+	position: absolute;
+	content: '';
+	width: 75px;
+	height: 75px;
+	border: 1px solid rgba(88, 88, 86, 0.7);
+	top: -6px;
+	left: -4px;
+	border-radius: 50%;
+}
+.round:before {
+	position: absolute;
+	content: '';
+	width: 80px;
+	height: 80px;
+	border: 1px solid rgba(88, 88, 86, 0.7);
+	top: -8px;
+	left: -7px;
+	border-radius: 50%;
+}
+.round p {
+	color: #fff;
+	position: relative;
+	top: -50px;
+	z-index: 9999;
+	left: 130px;
+}
+.watch {
+	position: relative;
+}
+.watch p {
+	position: absolute;
+	left: 60px;
+	top: 226px;
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 16px;
+	color: #fff;
+	z-index: 999;
+}
+/*========== Product Start ========*/
+#product {
+    padding-top: 160px;
+}
+
+.product-image {
+    position: relative;
+}
+
+.product-overlay {
+    position: absolute;
+    content: '';
+    top: -12px;
+    right: -12px;
+    width: 50px;
+    height: 50px;
+    background: #3a85c9;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 16px;
+    opacity: 0;
+    transition: all linear .3s;
+    border: 5px solid #fff;
+	z-index: 999;
+}
+
+.product-image:hover .product-overlay {
+    opacity: 1;
+}
+
+.product-overlay-text {
+    position: absolute;
+    content: '';
+    top: 5px;
+    right: 50px;
+    font-family: 'Open Sans';
+    color: #3a85c9;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    opacity: 0;
+    transition: all linear .3s;
+}
+
+.product-overlay-text a {
+    text-decoration: none;
+}
+
+.product-image:hover .product-overlay-text {
+    opacity: 1;
+}
+
+.top-img {
+    padding-bottom: 30px;
+}
+
+.product-item {
+    background: #f5f5f5;
+    width: 270px;
+}
+
+.product-item h3 {
+    padding-top: 24px;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-weight: 600;
+    color: #3a85c9;
+}
+
+.ice h6{
+    padding-top: 14px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    color: #444;
+}
+
+.icecream {
+    padding-top: 26px;
+    padding-bottom: 32px;
+}
+
+.icecream a{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 600;
+    background: #3a85c9;
+    color: #fff;
+    padding: 14px 40px;
+    text-decoration: none;
+    transition: all linear .3s;
+}
+
+.icecream a:hover{
+    background: #fff;
+    color: #3a85c9;
+    box-shadow: 1px 5px 5px 5px rgba(58, 133, 201, 0.25);
+}
+
+.candy {
+    background: #f5f5f5;
+}
+.crush {
+    padding-left: 30px;
+}
+
+/*========== Product End ========*/
+
+/*========== Testimonial Start ========*/
+#testimonial {
+	padding-top: 100px;
+}
+.test-txt h1 {
+	font-family: 'Abril Fatface';
+	font-weight: 400;
+	font-size: 32px;
+	color: #3a85c9;
+}
+.test-txt p {
+	padding-bottom: 30px;
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	color: #444444;
+}
+.test-text {
+	background:  #d9ecfe;
+	box-shadow: 0 14px 18px 0 rgba(17, 17, 17, 0.24), 0 17px 50px 0 rgba(255, 255, 255, 0.21);
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	color: #444444;
+	padding-top: 30px;
+	padding-bottom: 90px;
+}
+.test-text-2 {
+	padding-top: 75px;
+	padding-bottom: 30px;
+	background: #fff;
+	box-shadow: 0 14px 18px 0 rgba(17, 17, 17, 0.24), 0 17px 50px 0 rgba(255, 255, 255, 0.21);
+	border: 3px solid #d9ecfe;
+}
+.test-text-2 h3 {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 20px;
+	color: #222222;
+}
+.test-text-2 h5 {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 16px;
+	color: #999999;
+}
+.test-text-2 i {
+	color: #3a85c9;
+	font-size: 18px;
+}
+.test-pic {
+	width: 135px;
+	height: 135px;
+	background: #fff;
+	border-radius: 100%;
+	opacity: 100;
+	position: relative;
+	top: -267px;
+	left: 110px;
+	z-index: 99999999;
+}
+.test-pic img {
+	position: absolute;
+	top: 4px;
+	left: 8px;
+}
+.slide {
+	position: relative;
+}
+.slide i {
+	width: 50px;
+	height: 50px;
+	background: transparent;
+	font-size: 20px;
+	border-radius: 50%;
+	text-align: center;
+	cursor: pointer;
+	color:  #3a85c9;
+	padding-top: 14px;
+	border: 2px solid  #3a85c9;
+	position: absolute;
+	top: -107px;
+	left: 15px;
+	
+}
+.slide-right i {
+	position: absolute;
+	top: -107px;
+	left: 73px;
+}
+.slide i:hover {
+	background: #3a85c9;
+	color: #fff;
+	border: none;
+}
+/*========== Testimonial End ========*/
+
+
+/*========== Latest News Start ========*/
+#latest-news {
+    padding-top: 10px;
+	padding-bottom: 100px;
+}
+.features-text h1 {
+	font-family: 'Abril Fatface';
+	font-weight: 400;
+	font-size: 32px;
+	color: #3a85c9;
+}
+.features-text p {
+	padding-bottom: 30px;
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	color: #444444;
+}
+.chips {
+    background: #f5f5f5;
+}
+
+
+.latest-image {
+    position: relative;
+}
+
+.latest-overlay {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 0%;
+    background: rgba(17, 17, 17, 0.8);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all linear .3s
+}
+
+.latest-overlay h4{
+    position: relative;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    top: 50%;
+    transform: translateX()-50%);
+}
+
+
+.latest-all:hover .latest-overlay {
+    opacity: 1;
+    height: 100%;
+}
+
+.latest-top {
+    padding-top: 30px;
+    padding-left: 15px;
+}
+
+.latest-top h4{
+    font-family: 'Abril Fatface';
+    font-size: 20px;
+    font-weight: 400;
+    color: #222;
+}
+
+.latest-all:hover .latest-item h4 {
+    color: #3a85c9;
+}
+
+.latest-top p{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+    color: #444;
+}
+
+.choco {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.choco-text {
+    padding-top: 5px;
+}
+
+.choco-text span{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+    color: #999;
+}
+
+.choco-text p{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+    color: #444;
+}
+
+.latest-item a {
+    margin-top: 12px;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    width: 167px;
+    height: 50px;
+    line-height: 50px;
+    background: #3a85c9;
+    transition: all linear .3s;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.latest-item a:hover {
+    box-shadow: 3px 15px 15px 0px rgba(58, 133, 201, 0.50);
+    background: #fff;
+    color: #3a85c9;
+}
+
+.latest-bottom {
+    margin-top: 30px;
+}
+
+.latest-bottom li{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #fff;
+    background: #3a85c9;
+    list-style-type: none;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.latest-all:hover .latest-bottom li{
+    background: #ddd;
+    color: #999;
+}
+
+.latest-bottom p {
+    font-family: 'Abril Fatface';
+    font-size: 18px;
+    font-weight: 400;
+    color: #3a85c9;
+    position: relative;
+    padding-right: 25px;
+}
+
+.latest-all:hover .latest-bottom p {
+    color: #999;
+}
+
+.latest-bottom p:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 1px;
+    background: #3a85c9;
+}
+
+.latest-all:hover .latest-bottom p:after {
+    background: #999;
+}
+.arrow i {
+	width: 50px;
+	height: 50px;
+	background: transparent;
+	font-size: 20px;
+	border-radius: 50%;
+	text-align: center;
+	cursor: pointer;
+	color:  #3a85c9;
+	padding-top: 14px;
+	border: 2px solid  #3a85c9;
+	margin-top: 30px;
+	
+}
+.arrow i:hover {
+	background: #3a85c9;
+	color: #fff;
+	border: none;
+}
+/*========== Latest News End ========*/
+
+
+/*========== Footer Start ========*/
+#footer {
+	background: #d9edfe;
+	padding-top: 30px;
+}
+.footer-text{
+	padding-top: 60px;
+	position: relative;
+}
+.footer-text p {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	color: #444444;
+	line-height: 10px;
+}
+.footer-text i {
+	width: 50px;
+	height: 50px;
+	background: #3a85c9;
+	color: #fff;
+	font-size: 23px;
+	border-radius: 50%;
+	text-align: center;
+	cursor: pointer;
+	color: #fff;
+	padding-top: 13px;
+	position: absolute;
+	top: 55px;
+	left: 20px;
+	
+}
+.f-icon i {
+	width: 50px;
+	height: 50px;
+	background: transparent;
+	font-size: 20px;
+	border-radius: 50%;
+	text-align: center;
+	cursor: pointer;
+	color: #444;
+	padding-top: 13px;
+	border: 2px solid #444;
+	
+}
+.f-icon i:hover {
+	background: #3a85c9;
+	color: #fff;
+	border: none;
+}
+.f-txt {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+.f-txt h1 {
+	font-family: 'Abril Fatface';
+	font-weight: 400;
+	font-size: 25px;
+	color: #3a85c9;
+}
+.f-lst li {
+	display: inline-block;
+	list-style-type: none;
+}
+
+.f-lst a {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	color: #444444;
+}
+.f-lst a:hover {
+	color: #3a85c9;
+	outline: none;
+}
+.copy p {
+	padding-bottom: 20px;
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	color: #444444;
+}
+.copy p span {
+	color: #3a85c9;
+}
+.f-icon {
+	padding-bottom: 20px;
+}
+/*========== Footer End ========*/
+
+/*========== Banner Start ========*/
+
+/*========== navbar End ========*/
+
+
+
